@@ -1,0 +1,81 @@
+.app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    position: relative; /* Allows positioning of the menu button */
+    background-color: #333333;
+    color: white;
+  }
+  
+  .menu-button {
+    position: absolute;
+    right: 10px; /* Aligns the button to the right */
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .quote {
+    font-size: 18px;
+    font-style: italic;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #333333;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .progress {
+    margin: 20px 0;
+  }
+  
+  .day-selector button {
+    margin: 5px;
+    padding: 8px;
+    border: none;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .tasks {
+    margin: 20px 0;
+  }
+  
+  .task-item {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px;
+  }
+  
+  .notes {
+    margin: 20px 0;
+  }
+  
+  .note {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
